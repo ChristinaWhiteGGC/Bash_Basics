@@ -1,5 +1,6 @@
 #!/bin/sh
 
-echo "Enter a filename: ";
+echo "Please enter a filename: ";
 read filename;
+echo "Creating file";
 touch $filename;
